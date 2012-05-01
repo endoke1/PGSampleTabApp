@@ -43,7 +43,6 @@
 		82363522154ECDDE006E222C /* jquery.mobile-1.1.0.css in Resources */ = {isa = PBXBuildFile; fileRef = 8236351F154ECDDE006E222C /* jquery.mobile-1.1.0.css */; };
 		82363523154ECDDE006E222C /* jquery.mobile-1.1.0.js in Sources */ = {isa = PBXBuildFile; fileRef = 82363520154ECDDE006E222C /* jquery.mobile-1.1.0.js */; };
 		82363528154ED50E006E222C /* NativeControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 82363527154ED50E006E222C /* NativeControls.m */; };
-		8236352E154ED5EC006E222C /* NativeControls.js in Sources */ = {isa = PBXBuildFile; fileRef = 8236352D154ED5EC006E222C /* NativeControls.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,7 +89,6 @@
 		82363520154ECDDE006E222C /* jquery.mobile-1.1.0.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery.mobile-1.1.0.js"; sourceTree = "<group>"; };
 		82363526154ED50B006E222C /* NativeControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NativeControls.h; path = ../NativeControls/NativeControls.h; sourceTree = "<group>"; };
 		82363527154ED50E006E222C /* NativeControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NativeControls.m; path = ../NativeControls/NativeControls.m; sourceTree = "<group>"; };
-		8236352D154ED5EC006E222C /* NativeControls.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = NativeControls.js; path = www/NativeControls.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +126,6 @@
 		823634B2154ECD47006E222C = {
 			isa = PBXGroup;
 			children = (
-				8236352D154ED5EC006E222C /* NativeControls.js */,
 				8236351C154ECDC0006E222C /* www */,
 				823634DE154ECD47006E222C /* SampleTabApp */,
 				823634C3154ECD47006E222C /* Frameworks */,
@@ -383,7 +380,6 @@
 				82363521154ECDDE006E222C /* jquery.min.js in Sources */,
 				82363523154ECDDE006E222C /* jquery.mobile-1.1.0.js in Sources */,
 				82363528154ED50E006E222C /* NativeControls.m in Sources */,
-				8236352E154ED5EC006E222C /* NativeControls.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +566,7 @@
 				8236351B154ECD47006E222C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
